@@ -4,23 +4,26 @@
   box-sizing: border-box;
 }
 
-main{
-  font-family: 'Source Code Pro', monospace;
-  font-weight: bold;
-  font-size: 5em;
-  line-height: 1em;
-  text-transform: uppercase;
-}
+
 
 nav{
   position: fixed;
   right: 10px;
   top: 10px;
+  z-index: 1;
+  font-size: 1em;
 }
 
 li{
   display: inline-block;
   list-style: none;
+  background-color: white;
+  border: 1px solid dimgrey;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding-left: 5px;
+
 }
 
 img{
@@ -31,6 +34,11 @@ img{
   width: 100%;
   height: 100vh;
   position: relative;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  font-size: 5em;
+  line-height: 1em;
+  text-transform: uppercase;
 }
 
 .vans{
