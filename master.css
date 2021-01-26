@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  font-size: 5em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+nav{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+}
+
+img{
+  width: 500px;
+}
+
+.vans, .tommy, .converse{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.vans{
+  background-color: red;
+  color: yellow;
+}
+
+.tommy{
+  background-color: green;
+  color: yellow;
+}
+
+.converse{
+  background-color: yellow;
+  color: green;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  vertical-align: middle;
+}
